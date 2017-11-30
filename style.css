@@ -30,7 +30,7 @@ body{
 	margin: 0;
 }
 .logo {
-	width:32px;
+	width:45px;
 	margin-right: 14px;
 }
 .container{
@@ -38,12 +38,12 @@ body{
 	display: flex;
 	justify-content: center;
 	margin: 8px 0 12px 0;
-	font-size: 0.88em;
 	color: #2e3192;
 	font-family: ministry, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	text-align: left;
+	font-size: 1em;
 }
 .container-menu{
 	display: flex;
@@ -112,27 +112,25 @@ input{
 }
 .texto01{
 	position: absolute;
-	bottom:40px;
-	left: 00px;
+	bottom:25px;
+	left: 15px;
 	font-family: ministry, sans-serif;
 	text-align: left;
 	font-weight: 700;
 	color: #ffffff;
 	z-index: 99;
-	margin-left: 13%;
 	font-size: 1.6em;
 }
 .texto001{
 	position: absolute;
-	bottom:17px;
-	left: 0px;
+	bottom:4px;
+	left: 15px;
 	font-family: ministry, sans-serif;
 	text-align: left;
 	font-style: italic;
 	font-weight: 400;
 	color: #ffffff;
 	z-index: 99;
-	margin-left: 13%;
 	font-size: 1.5em;
 }
 .mask:hover{
