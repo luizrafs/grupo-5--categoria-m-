@@ -38,7 +38,7 @@ body{
 	display: flex;
 	justify-content: center;
 	margin: 8px 0 12px 0;
-	font-size: 0.88em;
+	font-size: 1.2em;
 	color: #2e3192;
 	font-family: ministry, sans-serif;
 	font-style: normal;
@@ -54,6 +54,10 @@ body{
 	border-radius: 20px;
 	padding: 5px 16px;
 	margin-top: 26px;
+}
+.menu-item:hover{
+	color: #fff;
+	background-color: #f26522;
 }
 form{
 	padding: 10px;
@@ -102,31 +106,26 @@ input{
   width:100%;
   height:200px;
   background:#f26522;
-  opacity:.6;
+  opacity:.4;
   z-index:8; 
   position:absolute;
-  /*margin-left: 10%;*/
-
 }
 .texto01{
 	position: absolute;
 	bottom:40px;
 	left: 00px;
-	/*margin-top: -60px;
-	margin-left: 20px;*/
 	font-family: ministry, sans-serif;
 	text-align: left;
 	font-weight: 700;
 	color: #ffffff;
 	z-index: 99;
 	margin-left: 13%;
+	font-size: 1.6em;
 }
 .texto001{
 	position: absolute;
-	bottom:20px;
+	bottom:17px;
 	left: 0px;
-	/*margin-top: -40px;*/
-	/*margin-left: 20px;*/
 	font-family: ministry, sans-serif;
 	text-align: left;
 	font-style: italic;
@@ -134,6 +133,7 @@ input{
 	color: #ffffff;
 	z-index: 99;
 	margin-left: 13%;
+	font-size: 1.5em;
 }
 .mask:hover{
 	background-color: #2e3192;
@@ -145,5 +145,5 @@ input{
 @media screen and (min-width: 1024px){
 	.container{font-size: 2em;}
 	.texto01{font-size: 2em;}
-	.texto001{font-size: 2em;}
+	.texto001{font-size: 2em; bottom: 10px;}
 }
